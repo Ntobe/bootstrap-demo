@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Bootstrap Theme Company Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+  .jumbotron {
+    background-color: #A45A52;
+    color: #fff;
+    padding: 250px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #A45A52;
+    font-size: 50px;
+  }
+  .logo {
+    color: #A45A52;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #A45A52;
+  }
+  .carousel-indicators li {
+    border-color: #A45A52;
+  }
+  .carousel-indicators li.active {
+    background-color: #A45A52;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #A45A52;
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #A45A52;
+    background-color: #fff !important;
+    color: #A45A52;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #A45A52 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #A45A52;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #A45A52;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #A45A52 !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #A45A52;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#myPage"><img src="assets/img/logo.png" width="40" height="30"> </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron text-center" style="background-image: url('assets/img/car.jpg'); background-repeat: no-repeat;">
+    <h1> Sotobe's Driving School</h1>
+    <p>Get ready to unlock the freedom of the open road with ABC Driving School: Where Skills and Confidence Collide!</p>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2>About Us</h2>
+            <p>Welcome to Sotobe's Driving School, where learning to drive is an exciting journey filled with memorable
+                experiences! At Sotobe's Driving School, we believe in making your time with us not only informative but
+                also engaging and enjoyable. Let's take a look at some of the ways we make our driving lessons
+                interesting:</p>
+            <p>Student Involvement: We value your participation! Engage in group discussions, collaborate with fellow
+                students, and take part in role-playing exercises that simulate common driving scenarios. Learning from
+                each other's experiences will enhance your understanding and make the classes more enjoyable.</p>
+            <p> Continuous Feedback and Evaluation: Your progress matters to us. Our dedicated instructors will provide
+                regular feedback and evaluation, recognizing your achievements and helping you identify areas for
+                improvement. Your growth as a safe and confident driver is our ultimate goal.</p>
+        </div>
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-signal logo"></span>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-globe logo"></span>
+        </div>
+        <div class="col-sm-8">
+            <h2>Our Values</h2>
+            <h4><strong>MISSION:</strong> Empowering Safe and Confident Drivers for Life</h4>
+            <p><strong>VISION:</strong> Driving Towards a Safer Tomorrow Through Inspiring a Culture of Responsible and
+                Skilled Drivers</p>
+        </div>
+    </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <span class="	glyphicon glyphicon-book logo-small"></span>
+            <h4>Learner's Licence lessons</h4>
+            <p>Embark on your journey to becoming a licensed driver with our comprehensive Learner's License Lessons.
+                Designed for aspiring drivers of all ages, our expert instructors will guide you through the essential
+                knowledge and skills needed to confidently navigate the road to obtaining your learner's permit. Our
+                engaging and interactive lessons cover road signs, traffic rules, and safe driving practices, preparing
+                you for success in your written exam. Gain the knowledge and confidence you need to take your first step
+                towards independence behind the wheel</p>
+        </div>
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-road logo-small"></span>
+            <h4>Driving lessons</h4>
+            <p>Master the art of driving with our top-notch Driving Lessons tailored to meet your specific needs. Our
+                experienced and patient instructors will take you through a structured curriculum, focusing on building
+                essential driving skills and techniques. Whether you're a beginner getting behind the wheel for the
+                first time or looking to refine your existing skills, our personalized approach ensures that you receive
+                the guidance and practice necessary to become a safe and confident driver. From mastering basic
+                maneuvers to navigating complex traffic scenarios, we'll support you every step of the way on your
+                journey to obtaining your driver's license.</p>
+        </div>
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-lock logo-small"></span>
+            <h4>Vehicle hire</h4>
+            <p>Experience convenience and flexibility with our Vehicle Hire service. Whether you need a car for your
+                driving test, a road trip, or any other purpose, we've got you covered. Our fleet of well-maintained
+                and reliable vehicles is available for hire at competitive rates. With various vehicle options to choose
+                from, you can select the perfect fit for your needs. Rest assured that our vehicles are equipped with
+                the necessary safety features, providing you with peace of mind during your rental period. Enjoy the
+                freedom of the road with our hassle-free Vehicle Hire service, designed to make your driving experience
+                convenient and enjoyable.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+    <h2>Portfolio</h2><br>
+    <h4>What we have created</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="assets/img/license.png" alt="Paris" width="300" height="200">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="assets/img/license.png" alt="New York" width="400" height="300">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="assets/img/license.png" alt="San Francisco" width="400" height="300">
+            </div>
+        </div>
+    </div>
+
+    <h2>What our customers say</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+            </div>
+            <div class="item">
+                <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+            </div>
+            <div class="item">
+                <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+    <div class="text-center">
+        <h2>Pricing</h2>
+        <h4><br></h4>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Learners package</h1>
+                </div>
+                <div class="panel-body">
+                    <p>This includes 10 lessons (<strong>1hr/lesson</strong>)</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>R200</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Driving lessons package</h1>
+                </div>
+                <div class="panel-body">
+                    <p>This includes 10 driving lessons (<strong>1hr/lesson</strong>)</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>R1500</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Vehicle hire</h1>
+                </div>
+                <div class="panel-body">
+                    <p>Get vehicle for duration of driving test</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>R600</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Durban, South Africa</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+        </div>
+        <div class="col-sm-7">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="assets/img/map_location.jpg" class="img-responsive" style="width:100%">
+
+<footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+</footer>
+
+</body>
+</html>
